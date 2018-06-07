@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  --mainColor: #FF5F6D;
+  --secondaryColor: #FFC371; 
+
+  /* --mainColor: #8E0E00;
+  --secondaryColor: #1F1C18; */
+
+  /* --mainColor: #00d2ff;
+  --secondaryColor: #928DAB; */
+
+  --black : #333;
+  --white : #fff;
+  background: var(--mainColor);
+  height:100vh;
+}
+div{
+  font-weight: 800;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* netflix gradient #8E0E00 -> #1F1C18 */
+/* Bright Vault #00d2ff -> #928DAB */
+/* sweet moring #FF5F6D -> #FFC371 */
+
+
